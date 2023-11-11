@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Mysql data submit form</title>
+  </head>
+  <body>
+    <div class="d-flex justify-content-around my-5">
+      <button
+        type="button"
+        class="btn btn-success"
+        onclick="displayForm('new', 'edit', 'delete','list')"
+      >
+        New
+      </button>
+      <button
+        id="list"
+        type="button"
+        class="btn btn-primary"
+        onclick="displayForm('list','new', 'edit', 'delete')"
+      >
+        List
+      </button>
+      <button
+        type="button"
+        class="btn btn-warning"
+        onclick="displayForm('edit', 'new','delete','list')"
+      >
+        Edit
+      </button>
+      <button
+        type="button"
+        class="btn btn-danger"
+        onclick="displayForm('delete','edit', 'new', 'list')"
+      >
+        Delete
+      </button>
+    </div>
+
+
+
+
+
+
+
+    <section class="max-auto,my-3, w-75 new">
+      <h1>Add Product</h1>
+      <div class="add-product">
+        <form action="http://localhost:1234/addIphones" method="post">
+          <div class="inside-div">
+            <label for="name"> iphone Id:</label><br />
+            <input type="text" name="iphoneId" /> <br />
+            <label for="imgPath">iPhone image path:</label>
+            <br />
+            <input type="text" name="imgPath" /> <br />
+            <label for="iphoneLink">iphone Link:</label><br />
+            <input type="text" name="iphoneLink" /> <br />
+            <label for="iphoneTitle">iphone Title:</label> <br />
+            <input type="text" name="iphoneTitle" /> <br />
+            <label for="startPrice">starting Price:</label><br />
+            <input type="text" name="startPrice" /> <br />
+            <label for="priceRange">Monthly Price Range:</label>
+            <br />
+            <input type="text" name="priceRange" /> <br />
+            <label for="briefDescription"> Brief Description:</label><br />
+            <textarea
+              name="briefDescription"
+              id="#"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <br />
+            <label for="fullDescription">Full Description:</label> <br />
+            <textarea
+              name="fullDescription"
+              id="#"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <br />
+            <br />
+            <label for="user_id">User Id:</label><br />
+            <input type="text" name="userId" /><br />
+            <label for="User_name">User name:</label><br />
+            <input type="text" name="userName" /><br />
+            <label for="User_password">User password:</label><br />
+            <input type="text" name="userPassword" /><br />
+            <br />
+            <input type="submit" value="Add iphone" /><br /><br />
+            <!-- <input type="submit" value="add User"> <br> -->
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="mx-auto my-3 w-75 edit" style="display: none">
+      <h1>Update Products</h1>
+
+      <form id="myForm">
+        <label for="name">ID:</label><br />
+        <input type="text" name="id" /><br /><br />
+
+        <label for="name">New Name:</label><br />
+        <input type="text" name="updatedName" /><br /><br />
+        <label for="name"> iphone Id:</label><br />
+        <input type="text" name="iphoneId" /> <br />
+        <label for="order_id">orderId:</label><br />
+        <input type="text" name="order_id" /><br />
+        <br />
+        <button class="btn btn-dark">Submit Updated Product</button> <br> 
+      </form>
+    </section>
+    <section class="mx-auto my-3 w-75 delete" style="display: none">
+      <h1>Delete the data</h1>
+
+      <form id="delete-user">
+        <label for="name">ID:</label><br />
+        <input type="text" name="id" /><br /><br />
+        <button class="btn btn-dark">Delete the data</button>
+      </form>
+    </section>
+    <section
+      id="data"
+      class="my-3 container list"
+      style="display: none"
+    ></section>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

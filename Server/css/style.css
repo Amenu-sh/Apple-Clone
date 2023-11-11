@@ -1,0 +1,20 @@
+form {
+    background-color: aqua;
+    width: 400px;;
+    border: solid black;
+    
+   
+}
+.inside-div {
+    margin : 20px;
+
+}
+input {
+    width: auto;
+    height: 30px;
+}
+button {
+    height: 25px;
+    color: white;
+    background-color: black;
+}

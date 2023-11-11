@@ -1,0 +1,43 @@
+{
+  "products": [
+    {
+      "product_id": 8,
+      "product_url": "iPhone 14 Pro",
+      "product_name": "iPhone 14 Pro",
+      "description_id": 8,
+      "product_brief_description": "Pro. Beyond",
+      "product_description": "Pro. Beyond",
+      "product_img": "http://localhost:3000/static/media/hero_iphone14pro_spring__9xo85pm6sbmm_small_2x.3206b300550f4d10cd5b.jpg",
+      "product_link": "https://www.apple.com/shop/buy-iphone/iphone-14",
+      "price_id": 8,
+      "starting_price": "$899.00",
+      "price_range": "From $28.29/mo. or $679 with trade-in.*"
+    },
+    {
+      "product_id": 9,
+      "product_url": "iPhone 14 ",
+      "product_name": "iPhone 14 ",
+      "description_id": 9,
+      "product_brief_description": "Wonderfull.",
+      "product_description": "Wonderfull.",
+      "product_img": "https://www.apple.com/v/iphone/home/bo/images/overview/hero/hero_iphone_14__de41900yuggi_small_2x.jpg",
+      "product_link": "https://www.apple.com/shop/buy-iphone/iphone-14",
+      "price_id": 9,
+      "starting_price": "$799.00",
+      "price_range": "From $18.70/mo. or $449 with trade-in.*"
+    },
+    {
+      "product_id": 11,
+      "product_url": "iPhone 13",
+      "product_name": "iPhone 13",
+      "description_id": 11,
+      "product_brief_description": "Serious power. Serious value.",
+      "product_description": "Serious power. Serious value.",
+      "product_img": "http://localhost:3000/static/media/iphone_tradein_promo__d5au3rkw5kuq_small_2x.fc36de42efd259fd28af.jpg",
+      "product_link": "https://www.apple.com/shop/buy-iphone/iphone-13",
+      "price_id": 11,
+      "starting_price": "$699.00",
+      "price_range": "From $9.54/mo. or $229 with trade-in.*"
+    }
+  ]
+}
