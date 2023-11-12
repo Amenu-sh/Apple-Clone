@@ -22,23 +22,6 @@ function MyHeader() {
             </link>
             <Navbar.Collapse id="basic-navbar-nav">
               <ul className="navbar-nav nav-justified w-100 nav-fill">
-                {/* <NavbarList className="nav-link" linkUrl="/mac">
-                    Mac
-                  </NavbarList>
-                  <NavbarList linkUrl="/iphone">iphone</NavbarList>
-                  <NavbarList linkUrl="/ipad">ipad</NavbarList>
-                  <NavbarList linkUrl="/watch">watch</NavbarList>
-                  <NavbarList linkUrl="/Airpods">Airpods</NavbarList>
-                  <NavbarList linkUrl="/TV & Home">TV & Home</NavbarList>
-                  <NavbarList linkUrl="/Entertainment">Entertainment</NavbarList>
-                  <NavbarList linkUrl="/Accessories">Accessories</NavbarList>
-                  <NavbarList linkUrl="/support">Support</NavbarList>
-                  <NavbarList linkUrl="/search">
-                    <img src={search} alt="" />
-                  </NavbarList>
-                  <NavbarList linkUrl="/cart">
-                    <img src={cart} alt="" />
-                  </NavbarList> */}
                 <NavbarList linkUrl="/mac" linkName="Mac" />
                 <NavbarList linkUrl="/iphone" linkName="iphone" />
                 <NavbarList linkUrl="/ipad" linkName="ipad" />
